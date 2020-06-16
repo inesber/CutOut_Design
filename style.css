@@ -18,5 +18,23 @@ section.text p {
 }
 
 section.text a {
-  color: #000000;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+section.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url(image.jpg);
+  background-size: cover;
+  background-position: center;
+
+  mix-blend-mode: screen;
+
+  pointer-events: none;
 }
